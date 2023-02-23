@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @AlxVallecillo
 - 👀 I’m interested in ... IOS Development 
 - 🌱 I’m currently learning ... Web Development 
-- ⚓ My personal website is .. https://alxvallecillo.github.io/AlxVallecillo/
+- ⚓ My personal website is .. https://alxvallecillo.github.io/my-website/
 
 
 <!---

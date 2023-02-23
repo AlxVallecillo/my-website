@@ -1,0 +1,235 @@
+/*
+ */
+/******          GENERAL SELECTORS         ****/
+body {
+  background-color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+
+h1, h3 {
+  color: #219F94;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: #219F94;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+}
+
+P {
+  color: #064635;
+  font-size: 1.3rem;
+  vertical-align: middle;
+  font-family: 'EB Garamond', serif;
+  font-weight: 300;
+  width: 26.2rem;
+  margin: auto;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+/*******                ID SELECTORS             ********/
+#top {
+  width: auto;
+  max-width: 100%;
+  text-align: center;
+  background: #e0ebe8;
+  padding-top: 5.62rem;
+}
+
+#hello {
+  margin: 0;
+  padding-top: 1.33rem;
+}
+
+#land-image {
+  margin-top: 2.2rem;
+  max-width: 100%;
+}
+
+/******              CLASS SELECTORS                ******/
+/* TOP SECTION THAT CONTAIN THE CLOUNDS AND MOUNTAINS */
+.top-div {
+  position: relative;
+  display: inline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 2.3rem;
+  right: 1rem;
+  display: inline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 8rem;
+  display: inline;
+}
+
+/* GREETINGS IMAGE HI STYLE */
+.hi-img {
+  width: 10.1rem;
+  margin: 4.12rem 0 .67rem 0;
+}
+
+.line {
+  border-style: dotted none none;
+  border-color: #DFDFDE;
+  height: 6px;
+  border-width: .30em 0 0 0;
+  width: 3.1rem;
+  margin: 4.5rem auto;
+}
+
+
+/* TOP SECTION STYLING  */
+.myname {
+  font-family: 'Sacramento', sans-serif;
+  font-size: 4.62rem;
+  font-weight: lighter;
+  margin: 3.11rem auto 1.11rem;
+}
+
+.webDev {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 300;
+  font-size: 1.12rem;
+  color: #219F94;
+}
+
+/* NAVBAR CSS */
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  color: #219F94;
+  font-size: 1.3rem;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-weight: normal;
+}
+
+.nav-link:hover {
+  color: black;
+  transition: 1s;
+}
+
+.navbar {
+  background-color: #e0ebe8;
+  padding: 2rem 9rem;
+}
+
+/* SKILL IMAGES CODE FIX THE METHOD USING NESTED TABLES LAYOUT WAS ELIMINATED */
+
+/* experimental experimental */
+
+.container5-child {
+  margin: 5.9rem auto 6.3rem;
+  width: 50%;
+}
+
+.container7-child {
+  margin: 6.3rem auto 0;
+  width: 50%;
+}
+
+.img1-skill {
+  width: 25%;
+  float: left;
+  padding: 0 1.5rem;
+  margin-right: 1rem;
+}
+
+.header1-skill, .paragraph1-skill,
+.header2-skill, .paragraph2-skill {
+  text-align: left;
+  width: auto;
+}
+
+.img2-skill {
+  width: 25%;
+  float: right;
+  padding: 0 1.5rem;
+  margin-left: 1rem;
+}
+
+
+/*  SECTION 3 I CAN HELP  */
+.freelance-work {
+  color: #069A8E;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 0 1.5rem;
+  font-weight: bold;
+}
+
+.freelance-paragraph, .freelance-work {
+  min-width: 30%;
+  max-width: 100%;
+}
+
+.i-can-help-div {
+  margin: 0 0 40px 0;
+}
+
+.help {
+  margin-bottom: 2rem;
+}
+
+.contact-button {
+  padding: .44rem 3.1rem 1rem 1.9rem;
+  background-color: #45b29a;
+  color: #066163;
+  text-decoration: none;
+  border-radius: .24rem;
+  font-family: 'helvetica', sans-serif;
+  font-weight: 300;
+  margin: 2.5rem 0 1.4rem;
+  display: inline-block;
+}
+
+.email-icon {
+  font-size: 1.7rem;
+  text-align: left;
+  margin: 0 2.2rem -.10rem 0;
+  vertical-align: sub;
+}
+
+/* FOOTER CSS CODE  */
+.footer-div {
+  padding: 1.8rem 0;
+  margin: 2.1rem auto auto;
+  background-color: #e0ebe8;
+}
+
+.footer-item {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.social {
+  color: #96CEB4;
+  text-decoration: none;
+  margin: 0 2.1rem 0;
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.social:hover {
+  color: black;
+  transition: color 1s;
+}
+
+.reserved {
+  font-size: .9rem;
+  text-decoration: none;
+  color: #45b29a;
+  text-align: center;
+}
